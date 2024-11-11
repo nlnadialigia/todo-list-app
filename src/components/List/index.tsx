@@ -16,7 +16,7 @@ export function List({ tasks, setTasks }: Readonly<ListProps>) {
       if (t.id === id) {
         return {
           ...t,
-          isDone: true,
+          isDone: !t.isDone,
         };
       }
       return t;
