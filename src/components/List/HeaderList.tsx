@@ -1,4 +1,4 @@
-import './list.css';
+import './index.css';
 
 export function HeaderList() {
   return (
@@ -9,7 +9,7 @@ export function HeaderList() {
       </div>
       <div className=" common tasks-completed">
         <p>Concluídas</p>
-        <span>0</span>
+        <span>0 de 2</span>
       </div>
     </div>
   );

@@ -45,8 +45,3 @@ main {
   margin: auto;
 }
 
-.tasks-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}

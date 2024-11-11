@@ -1,5 +1,5 @@
 import { ClipboardList } from 'lucide-react';
-import './list.css';
+import './index.css';
 
 export function EmptyList() {
   return (

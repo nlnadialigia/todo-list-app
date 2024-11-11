@@ -40,6 +40,12 @@ h4 {
   color: var(--purple);
 }
 
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .task {
   display: flex;
   flex-direction: row;
