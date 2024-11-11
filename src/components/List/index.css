@@ -11,6 +11,11 @@ h4 {
   margin-top: 1rem;
 }
 
+.tasks {
+  width: 46rem;
+  margin: auto;
+}
+
 .tasks-info {
   display: flex;
   justify-content: space-between;
@@ -62,4 +67,9 @@ h4 {
 
 .task p {
   flex: 1;
+}
+
+.done {
+  text-decoration: line-through;
+  color: var(--gray-300);
 }
